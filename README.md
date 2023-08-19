@@ -15,4 +15,5 @@ Creating an English to Hinglish Translation App using Python, HTML, CSS, and dep
 * You can enter English text in the text area, click the "Translate" button, and view the Hinglish translation.
 
 # Result:
-![Sample outputs](https://github.com/PrafulGotmare/English-To-Hinglish-Translation-text-App-using-Python/assets/81294533/f0688eb0-73d2-468a-820e-ed81612bb613)
+
+![Sample outputs](https://github.com/PrafulGotmare/English-To-Hinglish-Translation-text-App-using-Python/assets/81294533/00541ab3-1f7e-4ad7-bd6e-66f617c13766)
