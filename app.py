@@ -1,17 +1,18 @@
-from flask import Flask, render_template, request
+import streamlit as st
 from mtranslate import translate
 
-app = Flask(__name__)
+def translate_to_hinglish(text):
+    hinglish_translation = translate(text, to_language='hi', from_language='en')
+    return hinglish_translation
 
-@app.route('/', methods=['GET', 'POST'])
-def index():
-    hinglish_translation = ""
+def main():
+    st.title("English to Hinglish Translation App")
+    
+    input_text = st.text_area("Enter English text:")
+    if st.button("Translate"):
+        hinglish_translation = translate_to_hinglish(input_text)
+        st.success(f"Hinglish Translation: {hinglish_translation}")
 
-    if request.method == 'POST':
-        input_text = request.form['input_text']
-        hinglish_translation = translate(input_text, to_language='hi', from_language='en')
+if __name__ == "__main__":
+    main()
 
-    return render_template('index.html', hinglish_translation=hinglish_translation)
-
-if __name__ == '__main__':
-    app.run(debug=True)
