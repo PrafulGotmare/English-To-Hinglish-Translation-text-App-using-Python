@@ -13,6 +13,8 @@ Before running the app, make sure the following dependencies installed:
 
 #  𝐒𝐞𝐭𝐮𝐩 𝐄𝐧𝐯𝐢𝐫𝐨𝐧𝐦𝐞𝐧𝐭 𝐚𝐧𝐝 𝐃𝐞𝐩𝐞𝐧𝐝𝐞𝐧𝐜𝐢𝐞𝐬:
 
+* ```bash
+  pip install -r requirements.txt
 * Install required Python packages: streamlit, mtranslate.
 * Create a new directory for the project and navigate to it in the terminal.
 
@@ -41,7 +43,7 @@ Before running the app, make sure the following dependencies installed:
 - Web-based interface for translating English to Hinglish.
 - Utilizes the `mtranslate` library to perform translations.
 - User-friendly design using HTML and CSS.
-- Developed with Flask, a lightweight Python web framework.
+- Developed with Flask and also Streamlit, a lightweight Python web framework.
 
 
 
