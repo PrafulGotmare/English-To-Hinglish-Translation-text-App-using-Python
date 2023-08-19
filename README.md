@@ -23,3 +23,8 @@ Creating an English-to-Hinglish Translation App using Python, HTML, CSS, and dep
 # 𝐑𝐞𝐬𝐮𝐥𝐭:
 
 ![Sample outputs](https://github.com/PrafulGotmare/English-To-Hinglish-Translation-text-App-using-Python/assets/81294533/00541ab3-1f7e-4ad7-bd6e-66f617c13766)
+
+# 𝐕𝐢𝐝𝐞𝐨 𝐎𝐮𝐭𝐩𝐮𝐭:
+
+https://github.com/PrafulGotmare/English-To-Hinglish-Translation-text-App-using-Python/assets/81294533/8f9bf0c9-13e8-44b0-a34e-298f3cfc3b52
+
