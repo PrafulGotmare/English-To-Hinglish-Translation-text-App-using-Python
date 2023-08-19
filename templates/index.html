@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<style> 
+div {
+    
+    /* padding: 15px; */
+    background-color: rgb(217, 255, 80);
+    box-shadow: 15px 15px;
+}
+</style>
+
+    <title>english To Hinglish Translation App</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body> 
+    <div class="container">
+        <h1 style="color:DodgerBlue;">English To Hinglish Translation App</h1>
+        <form method="post">
+            <label for="input_text">Enter English text:</label>
+            <textarea id="input_text" name="input_text" rows="5" cols="50" name="comment">Enter text here...</textarea>
+            <button class="button" style="vertical-align:middle"><span>Translate </span></button>
+        </form>
+        {% if hinglish_translation %}
+        <div class="result">
+            <h2>Hinglish Translation:</h2>
+            <p>{{ hinglish_translation }}</p>
+        </div>
+        {% endif %}
+    </div>
+</body>
+</html>
