@@ -21,10 +21,10 @@ Before running the app, make sure the following dependencies installed:
 1. Clone this repository:
 
    ```bash
-   git clone https://github.com/your-username/english-to-hinglish-translation-app.git
-   cd english-to-hinglish-translation-app
+   [git clone https://github.com/your-username/english-to-hinglish-translation-app.git](https://github.com/PrafulGotmare/English-To-Hinglish-Translation-text-App-using-Python.git)
+   cd English-To-Hinglish-Translation-text-App-using-Python
 
-2. run file on the terminal:
+2. Run the file on the terminal:
 
 * python Flaskmainapp.py
 * This command will start the server, and you should see an output indicating that the server is running.
